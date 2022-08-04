@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #282D35;
+    font-family: 'Inter', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 30px 25px;
+    background-color: #21222A;
+}
+nav > img {
+    height: 30px;
+    margin-right: 8px;
+}
+.nav--logo_text, .nav--title {
+    margin: 0;
+}
+.nav--logo_text {
+    color: #61DAFB;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 22px;
+}
+.nav--title  {
+    color: #fff;
+    font-weight: 600;
+}
+main {
+    padding: 57px 27px;
+    color: white;
+    background-image: url('./images/react-logo-half.png');
+    background-repeat: no-repeat;
+    /* background-position-x: right;
+    background-position-y: center; */
+    background-position: right 75%;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+.main--facts > li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
